@@ -58,7 +58,6 @@ namespace calculacka
                     break;
 
                 case "*":
-
                     mflCislo2 = Convert.ToSingle(txtDisplay.Text);
                     menAktOperace = enOperace.Krat;
                     txtDisplay.Text = "0";
@@ -123,6 +122,10 @@ namespace calculacka
 
             mflCislo1 = mflCislo2 = mflVysledek = 0;
             menAktOperace = enOperace.Clear;
+
+        }
+        private void PredchoziOperace()
+        {
 
         }
     }
